@@ -37,13 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             TextFormField(decoration: InputDecoration(
-              hintText: 'Name',
+              hintText: 'Name', labelText: 'Name',
             ),),
             TextFormField(decoration: InputDecoration(
-              hintText: 'Age',
+              hintText: 'Age', labelText: 'Age',
             ),),
             TextFormField(decoration: InputDecoration(
-              hintText: 'Salary',
+              hintText: 'Salary', labelText: 'Salary',
             ),),
             ElevatedButton(onPressed: () {}, child: Text('Add Employee'))
           ],
